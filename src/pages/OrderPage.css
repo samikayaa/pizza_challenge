@@ -58,3 +58,87 @@ h3 {
 .price {
     opacity: 0.6;
 }
+
+.pizza-sizes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50%;
+    align-items: flex-start;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.boyut-cevap {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.boyut-cevap input {
+    width: 20px;
+    height: 20px;
+}
+
+.boyut-cevap input[type="radio"] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+.hamur-cevap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: flex-start;
+    align-items: flex-start;
+    letter-spacing: 0.02em;
+}
+
+
+
+.extras {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.extras-header {
+    font-size: 24px;
+    font-weight: 600;
+    color: #CE2829;
+}
+
+.extra-elements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40vw;
+    align-items: center;
+    text-align: center;
+}
+
+.extra-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 11vw;
+    margin-bottom: 30px;
+}
+
+.extra-checkbox {
+    margin-right: 10px;
+    align-items: center;
+    text-align: center;
+}
