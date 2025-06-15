@@ -5,6 +5,7 @@ import './App.css';
 
 import React from 'react';
 import OrderPage from './pages/OrderPage';
+import HomePage from './pages/HomePage';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
       <div>
-        <OrderPage />
+        <HomePage />
       </div>
     </>
   );
