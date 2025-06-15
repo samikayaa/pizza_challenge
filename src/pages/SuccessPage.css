@@ -1,0 +1,9 @@
+header img {
+    width: 20vw;
+}
+
+header h3 {
+    font-family: "Barlow", sans-serif;
+    padding: 200px;
+    letter-spacing: -5px;
+}

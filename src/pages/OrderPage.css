@@ -142,3 +142,30 @@ h3 {
     align-items: center;
     text-align: center;
 }
+
+
+.adınız {
+    display: flex;
+    flex-direction: column;
+    width: 40 vw;
+}
+
+.adınız-yanıt {
+    width: 40 vw;
+}
+
+.siparis-notu {
+    display: flex;
+    flex-direction: column;
+    width: 40 vw;
+    gap: 40 px;
+    padding: 40 px;
+}
+
+.siparis {
+    display: flex;
+    flex-direction: column;
+    width: 40 vw;
+    gap: 40 px;
+    padding: 40 px;
+}
